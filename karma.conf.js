@@ -28,7 +28,7 @@ module.exports = function (config) {
     logLevel: config.LOG_INFO,
     autoWatch: true,
   browsers: ['Chrome_without_security'],
-  singleRun: false,
+  singleRun: true,
   customLaunchers: {
     Chrome_without_security: {
       base: 'Chrome',
